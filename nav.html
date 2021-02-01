@@ -4,37 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-         nav{
-            height: 50px;
-            background-color:lightgray;
-            line-height: 30px;
-            font-size: 20px;
-            font-weight: 700;
-        }
-        nav li{
-            list-style: none;
-            float: left;
-            padding: 10px;
-        }
-      
-        nav ul li:hover{
-           background-color:white;
-            
-        }
-        nav a{
-            text-decoration: none;
-            color:black
-        }
-        nav ul li a:hover{
-            padding: 15px;
-            margin: 0 10px;
-            text-decoration: none;
-            color:cyan;
-            font-weight: 800;
-        }
-            
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -44,6 +14,11 @@
             </li>
             <li>
                 <a href="feature.html">Feature</a>
+                <ul class="dropdown">
+                    <li><a href="http://"></a>Option 1</li>
+                    <li><a href="http://"></a> Option 2</li>
+                    <li><a href="http://"></a> Option 3</li>
+                </ul>
             </li>
             <li>
                 <a href="news.html">News</a>
